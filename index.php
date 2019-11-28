@@ -25,16 +25,17 @@
                 <div class="carousel slide" id="carrusel" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="w-100 d-block" src="img/c1.jpg" alt="Primer elemento">
+                            <img class="w-80 d-block" src="imagenes/imagen1.png" alt="Primera foto">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 d-block" src="img/c2.jpg" alt="Segundo elemento">
+                            <img class="w-80 d-block" src="imagenes/imagen2.png" alt="Segunda foto">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 d-block" src="img/c3.jpg" alt="Tercer elemento">
+                            <img class="w-80 d-block" src="imagenes/imagen3.png" alt="Tercera foto">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 d-block" src="img/c4.jpg" alt="Cuarto elemento">
+                            <img class="w-80 d-block" src="imagenes/imagen4.png" alt="Cuarta foto">
+                            
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carrusel" data-slide="prev">
