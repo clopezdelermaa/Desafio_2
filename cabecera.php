@@ -39,8 +39,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a class="navbar-brand" href="#"><img src="img/logo-openwebinars.png"/></a>
-                    
+                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaEscandinava.png"/></a>
+                    <h4>Sendero verde</h4>
                 </div>
                 <form class="form-inline">
                     <input class="btn btn-primary btn-sm mr-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
