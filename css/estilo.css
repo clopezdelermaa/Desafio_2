@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-nov-2019, 12:13:40
+    Author     : clope
+*/
+
+img#logo {
+  width: 50px;
+  margin-left: 280px;
+}
+
+.navbar{
+    background-color: #40d9da;
+}
+a.nav-link {
+    color: black;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', serif;
+}
+nav h4 {
+    font-family: 'Brush Script MT';
+    font-size: 29pt;
+}
+input.btn-primary {
+    background-color:transparent;
+    border: none;
+    color: black;
+    color: rgba(0,0,0,0.5);
+    font-size: 12pt;
+}
+input.btn-primary:hover {
+    background-color: #2B9191;
+}
+body {
+    background: url('../imagenes/fondopaginaweb.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

@@ -15,7 +15,7 @@
 
         <!--MENU PRINCIPAL-->
         <header class="row">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <nav class="navbar navbar-expand-sm navbar bg fixed-top">
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
                           <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaEscandinava.png"/></a>
+                    
+                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.png"/></a>
                     <h4>Sendero verde</h4>
                 </div>
                 <form class="form-inline">

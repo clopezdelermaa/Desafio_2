@@ -11,7 +11,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
+<!--    <link rel="stylesheet" href="css/styles.css" />-->
+    <link rel="stylesheet" href="css/estilo.css" />
 </head>
 
 <body>
@@ -19,50 +20,6 @@
     include 'cabecera.php';
     ?>
 
-<!--    <main class="container-fluid">
-    <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
-            Aleviso de uso de cookies
-            <button type="button" class="close" data-dismiss="alert">
-                <span>X</span>
-            </button>
-        </div>
-
-        MENU PRINCIPAL
-        <header class="row">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                          <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">Noticias</a>
-                        </li>
-                        
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Listar Flores</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Por nombre</a>
-                                <a class="dropdown-item" href="#">Por Familia</a>
-                                <a class="dropdown-item" href="#">Por color</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <a class="navbar-brand" href="#"><img src="img/logo-openwebinars.png"/></a>
-                    
-                </div>
-                <form class="form-inline">
-                    <input class="btn btn-primary btn-sm mr-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
-                    <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
-                </form>
-            </nav>
-        </header>-->
-        <!-- CARRUSEL -->
         <section class="row justify-content-center mt-5">
             <div class="col-md-9 mt-3">
                 <div class="carousel slide" id="carrusel" data-ride="carousel">
@@ -103,7 +60,7 @@
             <h1 class="text-capitalize text-white">Curso ofertados</h1>
         </header>
 
-        <!-- CARD -->
+<!--         CARD -->
         <section class="row justify-content-around">
             <div class="col-sm-3">
                 <div class="card">
@@ -153,7 +110,7 @@
             <h1 class="text-capitalize text-white">¿Quieres hablar con nosotros?</h1>
         </header>
 
-        <!-- LIST GROUP COMO TAB-PANEL -->
+<!--         LIST GROUP COMO TAB-PANEL -->
         <section class="row justify-content-center">
             <div class="col-md-5">
                 <div class="list-group">
@@ -220,12 +177,12 @@
             </div>
         </section>
 
-        <!-- PIE DE PÁGINA  -->
-        <footer class="row bg-dark justify-content-center mt-3 p-3">
+<!--         PIE DE PÁGINA  -->
+        <footer class="row bg justify-content-center mt-3 p-3">
             <h5 class="text-center text-white">Openwebinars.net Todos los derechos reservados</h5>
         </footer>
 
-        <!-- VENTANA MODAL DE LOGIN -->
+<!--         VENTANA MODAL DE LOGIN -->
         <section class="modal" id="entrar">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -255,7 +212,7 @@
             </div>
         </section>
 
-        <!-- VENTANA MODAL DE REGISTRO -->
+<!--         VENTANA MODAL DE REGISTRO -->
         <section class="modal" id="registro">
             <div class="modal-dialog">
                 <form>
