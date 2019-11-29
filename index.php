@@ -19,7 +19,6 @@
     <?php
     include 'cabecera.php';
     ?>
-
         <section class="row justify-content-center mt-5">
             <div class="col-md-9 mt-3">
                 <div class="carousel slide" id="carrusel" data-ride="carousel">
@@ -55,133 +54,15 @@
                 </div>
             </div>
         </section>
+    <br>   
+    <section>
+        <p id="descripcionweb">En esta página web vas a encontrar un portal amplio sobre las flores y su significado.<br>
+            El lenguaje de las flores, también llamado floriografía, fue un medio de comunicación en la época victoriana en donde las flores y los arreglos florales de las mismas se utilizaban para enviar mensajes secretos, sirviendo para que las personas pudieran expresar sus sentimientos sin necesidad de palabras.<br>
+            El percusor de esto fue el rey Carlos II de Inglaterra, que fue recopilando datos desde Suecia hasta Persia durante el transcurso del siglo XVII<br>
+            A parte de ofrecer aquí el significado que pueden tener las flores en dichos arreglos florales (hay que tener en cuenta que el leguaje ha ido cambiando con el transcurso de los años) también se ofrecen curiosidades sobre estas plantas como por ejemplo sus propiedades medicinales hasta el origen de las mismas.</p>
+    </section>
 
-
-        <header class="row bg-dark justify-content-center mt-3 mb-3">
-            <h1 class="text-capitalize text-white">Curso ofertados</h1>
-        </header>
-
-<!--         CARD -->
-        <section class="row justify-content-around">
-            <div class="col-sm-3">
-                <div class="card">
-                    <a href="#" data-toggle="tooltip" data-html="true" title="Apúntate, es gratis el primer mes">
-                       <img src="img/php_logo.png" class="card-img-top">
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title">Curso PHP</h3>
-                        <h5 class="card-subtitle mb-3">Haz tu web de manera fácil</h5>
-                        <div class="card-text">
-                            PHP es el lenguaje de programación más usado para hacer páginas Web.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <a href="#" data-toggle="tooltip" data-html="true" title="Apúntate, es gratis el primer mes">
-                        <img src="img/mysql.png" class="card-img-top">
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title">Curso MySQL</h3>
-                        <h5 class="card-subtitle mb-3">Todo la potencia de SQL.</h5>
-                        <div class="card-text">
-                            MySQL pone la potencia de las bases de datos relacionales a tu alcance.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <a href="#" data-toggle="tooltip" data-html="true" title="Apúntate, es gratis el primer mes">
-                        <img src="img/jquery.png" class="card-img-top">
-                    </a>
-                    <div class="card-body">
-                        <h3 class="card-title">Curso jQuery</h3>
-                        <h5 class="card-subtitle mb-3">Da vida a tu Web</h5>
-                        <div class="card-text">
-                            jQuery te permite dar vida a tu página web de una manera fácil y sencilla.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <header class="row bg-dark justify-content-center mt-3 mb-3">
-            <h1 class="text-capitalize text-white">¿Quieres hablar con nosotros?</h1>
-        </header>
-
-<!--         LIST GROUP COMO TAB-PANEL -->
-        <section class="row justify-content-center">
-            <div class="col-md-5">
-                <div class="list-group">
-                    <a class="list-group-item list-group-item-action active" data-toggle="list" data-target="#contactar">Contactar</a>
-                    <a class="list-group-item list-group-item-action " data-toggle="list" data-target="#sugerencia">Sugerencia</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" data-target="#empresas">Empresas</a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="tab-content">
-                    <div class="tab-pane fade show active" id="contactar">
-                        <form>
-                            <div class="form-group">
-                                <label>Email:</label>
-                                <input type="email" class="form-control" placeholder="Introduce tu correo">
-                            </div>
-                            <div class="form-group">
-                                <label>Tu problema:</label>
-                                <textarea class="form-control" rows="6"></textarea>
-                            </div>
-                            <div class="text-right">
-                                <input type="submit" class="btn btn-primary" value="Enviar">
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="tab-pane fade" id="sugerencia">
-                        <form>
-                            <div class="form-group">
-                                <label>Email:</label>
-                                <input type="email" class="form-control" placeholder="Introduce tu correo">
-                            </div>
-                            <div class="form-group">
-                                <label>Tu Sugerencia:</label>
-                                <textarea class="form-control" rows="6"></textarea>
-                            </div>
-                            <div class="text-right">
-                                <input type="submit" class="btn btn-primary" value="Enviar">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="tab-pane fade" id="empresas">
-                        <form>
-                            <div class="form-group">
-                                <label>Nombre de la empresa:</label>
-                                <input type="text" class="form-control" placeholder="Introduce el nombre de la empresa">
-                            </div>
-                            <div class="form-group">
-                                <label>Email:</label>
-                                <input type="email" class="form-control" placeholder="Correo electrónico de contacto">
-                            </div>
-                            <div class="form-group">
-                                <label>¿En qué podemos ayudarte?:</label>
-                                <textarea class="form-control" rows="6"></textarea>
-                            </div>
-                            <div class="text-right">
-                                <input type="submit" class="btn btn-primary" value="Enviar">
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-<!--         PIE DE PÁGINA  -->
-        <footer class="row bg justify-content-center mt-3 p-3">
-            <h5 class="text-center text-white">Openwebinars.net Todos los derechos reservados</h5>
-        </footer>
+       
 
 <!--         VENTANA MODAL DE LOGIN -->
         <section class="modal" id="entrar">
@@ -267,7 +148,6 @@
     <!-- SCRIPT PARA QUE FUNCIONEN DETERMINADOS COMPONENTES -->
     <script>
         $(function () {
-            //Habilita los tooltips
             $('[data-toggle="tooltip"]').tooltip({
                 container: 'body'
             });
@@ -278,5 +158,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+    <?php
+    include 'pie.php';
+    ?>
+</body>
 </html>

@@ -7,20 +7,25 @@ and open the template in the editor.
     Created on : 28-nov-2019, 12:13:40
     Author     : clope
 */
+* {
+    font-family: 'Gill Sans', serif;
+}
 
 img#logo {
-  width: 50px;
-  margin-left: 280px;
+    width: 80px;
+    margin-left: 280px;
 }
 
 .navbar{
     background-color: #40d9da;
+    padding: 0px;
 }
 a.nav-link {
     color: black;
     color: rgba(0, 0, 0, 0.5);
     font-family: 'Gill Sans', serif;
 }
+
 nav h4 {
     font-family: 'Brush Script MT';
     font-size: 29pt;
@@ -43,6 +48,44 @@ body {
     background-size: cover;
 }
 img.w-80 {
-    width: 1024px;
+    width: 780px;
+    height: auto;
+    margin-left: 100px;
+}
+img#icono {
+    width: 20px;
+}
+p#descripcionweb {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: rgba(203,167,241,1);
+    background: -moz-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203,167,241,1)), color-stop(39%, rgba(203,167,241,0.9)), color-stop(66%, rgba(121,236,234,0.84)), color-stop(100%, rgba(121,236,234,0.75)));
+    background: -webkit-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: -o-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: -ms-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: linear-gradient(to bottom, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cba7f1', endColorstr='#79ecea', GradientType=0 );
+
+}
+footer {
+    border-top: 3px solid black;
+}
+.bg-primary {
+    background-color:  #40d9da !important;
+    color: black !important;
+}
+
+label.btn-warning {
+    background-color: #b177ee;
+    font-family: 'Gill Sans', serif;
+    color: black;
+    border: none;
+}
+label.btn-warning:hoover {
+    background-color: #8b5dbb;
+}
+label.btn-warning.active {
+    background-color: #8b5dbb;
     
 }

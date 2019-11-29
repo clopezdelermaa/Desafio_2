@@ -40,7 +40,7 @@
                         </li>
                     </ul>
                     
-                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.png"/></a>
+                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.svg"/></a>
                     <h4>Sendero verde</h4>
                 </div>
                 <form class="form-inline">
