@@ -7,7 +7,7 @@
  */
 ?>  <main class="container-fluid">
     <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
-            Aleviso de uso de cookies
+            Aviso de uso de cookies
             <button type="button" class="close" data-dismiss="alert">
                 <span>X</span>
             </button>

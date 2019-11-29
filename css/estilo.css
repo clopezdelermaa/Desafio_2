@@ -12,13 +12,14 @@ and open the template in the editor.
 }
 
 img#logo {
-    width: 80px;
+    width: 100px;
     margin-left: 280px;
 }
 
 .navbar{
     background-color: #40d9da;
     padding: 0px;
+    height: 70px;
 }
 a.nav-link {
     color: black;
