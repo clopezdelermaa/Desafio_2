@@ -8,18 +8,19 @@ and open the template in the editor.
     Author     : clope
 */
 * {
+    
     font-family: 'Gill Sans', serif;
+    
 }
 
 img#logo {
-    width: 100px;
-    margin-left: 280px;
+    width: 80px;
+    
 }
 
 .navbar{
     background-color: #40d9da;
     padding: 0px;
-    height: 70px;
 }
 a.nav-link {
     color: black;
@@ -89,4 +90,12 @@ label.btn-warning:hoover {
 label.btn-warning.active {
     background-color: #8b5dbb;
     
+}
+.alert-warning {
+    background-color: #b177ee;
+    color: black;
+    border: none;
+}
+nav .disabled {
+    visibility: hidden;
 }

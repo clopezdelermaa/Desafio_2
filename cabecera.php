@@ -38,6 +38,19 @@
                                 <a class="dropdown-item" href="#">Por color</a>
                             </div>
                         </li>
+                         <li class="nav-item dropdown disabled">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Area floral</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Añadir flor</a>
+                                <a class="dropdown-item" href="#">Validar flor</a>
+                               
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item disabled">
+                            <a href ="#" class="nav-link">Administración de usuaros</a>
+                            
+                        </li>
                     </ul>
                     
                     <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.svg"/></a>
