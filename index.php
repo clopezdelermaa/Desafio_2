@@ -89,6 +89,9 @@
                         <div class="modal-footer text-right">
                             <input type="submit" class="btn btn-primary" value="Entrar">
                         </div>
+                        <div>
+                           <a href="vistas/recuperarpasswd.php"><input type="button" class="btn btn-primary" value="Recuperar contraseña"</a> 
+                        </div>    
                     </form>
                 </div>
             </div>
@@ -137,7 +140,7 @@
                         <div class="modal-footer text-right">
                             <input type="submit" class="btn btn-primary" value="Registrar">
                         </div>
-
+                        
                     </div>
                 </form>
             </div>

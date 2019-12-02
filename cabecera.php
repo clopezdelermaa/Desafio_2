@@ -61,5 +61,7 @@
                     <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
                 </form>
             </nav>
-        </header><?php
+        </header>
+        
+            <?php
 ?>
