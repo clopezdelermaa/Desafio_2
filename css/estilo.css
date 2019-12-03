@@ -121,7 +121,7 @@ img#noticiaimg {
     width: 500px;
 }
 section.mt-5 {
-    background: transparent;
+    background: transparent !important;
 }
 main#noticias {
     margin-top: 20px;
