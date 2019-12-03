@@ -16,9 +16,65 @@
 </head>
 
 <body>
-    <?php
-    include 'cabecera.php';
-    ?>
+ 
+     <main class="container-fluid">
+    <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
+            Aviso de uso de cookies
+            <button type="button" class="close" data-dismiss="alert">
+                <span>X</span>
+            </button>
+        </div>
+
+        <!--MENU PRINCIPAL-->
+        <header class="row">
+            <nav class="navbar navbar-expand-sm navbar bg fixed-top">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                          <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="index.php" class="nav-link">Home</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a href="vistas/noticias.php" class="nav-link">Noticias</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Listar Flores</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Por nombre</a>
+                                <a class="dropdown-item" href="#">Por Familia</a>
+                                <a class="dropdown-item" href="#">Por color</a>
+                            </div>
+                        </li>
+                         <li class="nav-item dropdown disabled">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Area floral</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Añadir flor</a>
+                                <a class="dropdown-item" href="#">Validar flor</a>
+                               
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item disabled">
+                            <a href ="#" class="nav-link">Administración de usuarios</a>
+                            
+                        </li>
+                    </ul>
+                    
+                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.svg"/></a>
+                    <h4>Sendero verde</h4>
+                </div>
+                <form class="form-inline">
+                    <input class="btn btn-primary btn-sm mr-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
+                    <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
+                </form>
+            </nav>
+        </header>
+        
         <section class="row justify-content-center mt-5">
             <div class="col-md-9 mt-3">
                 <div class="carousel slide" id="carrusel" data-ride="carousel">
@@ -79,15 +135,15 @@
 
                             <div class="form-group">
                                 <label>Email:</label>
-                                <input type="text" class="form-control" placeholder="Introduce tu email">
+                                <input type="text" class="form-control" name="email" placeholder="Introduce tu email">
                             </div>
                             <div class="form-group">
                                 <label>Contraseña:</label>
-                                <input type="password" class="form-control" placeholder="Introduce tu contraseña">
+                                <input type="password" class="form-control" name="contrasenia" placeholder="Introduce tu contraseña">
                             </div>     
                         </div>
                         <div class="modal-footer text-right">
-                            <input type="submit" class="btn btn-primary" value="Entrar">
+                            <input type="submit" class="btn btn-primary" name="entrar" value="Entrar">
                         </div>
                         <div>
                            <a href="vistas/recuperarpasswd.php"><input type="button" class="btn btn-primary" value="Recuperar contraseña"</a> 
@@ -111,19 +167,23 @@
                         <div class="modal-body">
                             <div class="form-group">
                                 <label>Nombre:</label>
-                                <input type="text" class="form-control" placeholder="Introduce tu nombre" required>
+                                <input type="text" class="form-control"  name="nombre" placeholder="Introduce tu nombre" required>
                             </div>
                             <div class="form-group">
                                 <label>Apellidos:</label>
-                                <input type="text" class="form-control" placeholder="Introduce tus apellidos" required>
+                                <input type="text" class="form-control" name="apellidos" placeholder="Introduce tus apellidos" required>
                             </div>
                             <div class="form-group">
                                 <label>Email:</label>
-                                <input type="email" class="form-control" placeholder="Introduce tu correo electrónico" required>
+                                <input type="email" class="form-control" name="email" placeholder="Introduce tu correo electrónico" required>
                             </div>
                             <div class="form-group">
                                 <label>Contraseña:</label>
-                                <input type="password" class="form-control" required>
+                                <input type="password" name="contrasenia" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Repita la contraseña:</label>
+                                <input type="password" name="contrasenia2" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label>Sexo:</label>
@@ -138,7 +198,7 @@
                             </div>
                         </div>
                         <div class="modal-footer text-right">
-                            <input type="submit" class="btn btn-primary" value="Registrar">
+                            <input type="submit" class="btn btn-primary" name= "registrar" value="Registrar">
                         </div>
                         
                     </div>

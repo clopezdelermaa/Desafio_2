@@ -69,10 +69,10 @@ class conexion {
      * @param type $email
      * @param type $passwd
      */
-    static function insertarUsuario($codusuario, $email, $passwd) {
-        self::$sentencia = "INSERT INTO usuario (codusuario, email, contrasenia) VALUES(?,?,?)";
+    static function insertarUsuario($codusuario, $nombre, $apellidos, $sexo, $email, $passwd) {
+        self::$sentencia = "INSERT INTO usuario (codusuario, nombre, apellidos, sexo, email, contrasenia) VALUES (?,?,?)";
         $stmt = mysqli_prepare(self::$conexion, self::$sentencia);
-        mysqli_stmt_bind_param($stmt, "iss", $codusuario, $email, $passwd);
+        mysqli_stmt_bind_param($stmt, "iss", $codusuario, $nombre, $apellidos, $sexo, $email, $passwd);
         if (mysqli_stmt_execute($stmt)) {
             echo 'Registro de usuario realizado correctamente'.'<br>';
         } else {
@@ -139,5 +139,19 @@ class conexion {
         }
     }
     
+    /**
+     * Función que borra el usuario requerido
+     * @param type $email
+     */
+    static function borrarUsuario($email) {
+        self::$sentencia = "DELETE FROM usuario WHERE email = ?";
+        $stmt = mysqli_prepare(self::$conexion, self::$sentencia);
+        mysqli_stmt_bind_param($stmt, "s", $email);
+        if (mysqli_stmt_execute($stmt)) {
+            echo 'Usuario borrado correctamente'.'<br>';
+        } else {
+            echo "Error al borrar el usuario ".mysqli_error(self::$conexion).'<br>';
+        }
+    }
     
 }

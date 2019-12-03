@@ -23,11 +23,11 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a href="#" class="nav-link">Home</a>
+                            <a href="../Desafio2/index.php" class="nav-link">Home</a>
                         </li>
                         
                         <li class="nav-item active">
-                            <a href="#" class="nav-link">Noticias</a>
+                            <a href="vistas/noticias.php" class="nav-link">Noticias</a>
                         </li>
                         
                         <li class="nav-item dropdown">
@@ -48,12 +48,12 @@
                         </li>
                         
                         <li class="nav-item disabled">
-                            <a href ="#" class="nav-link">Administración de usuaros</a>
+                            <a href ="#" class="nav-link">Administración de usuarios</a>
                             
                         </li>
                     </ul>
                     
-                    <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.svg"/></a>
+                    <a class="navbar-brand" href="#"><img id="logo" src="../Desafio2/imagenes/PolillaSubsahariana.svg"/></a>
                     <h4>Sendero verde</h4>
                 </div>
                 <form class="form-inline">

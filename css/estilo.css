@@ -99,3 +99,39 @@ label.btn-warning.active {
 nav .disabled {
     visibility: hidden;
 }
+img#logoformulario {
+    width: 80px;
+    margin-left: 400px;
+}
+
+nav h4#cabeceraformu {
+    margin-top: 20px;
+}
+nav.formu {
+    height: 70px;
+}
+.formu ul li {
+    margin-top: 20px;
+}
+.recuperarpasswd {
+    height: 200px;
+    margin-left: 300px;
+}
+img#noticiaimg {
+    width: 500px;
+}
+section.mt-5 {
+    background: transparent;
+}
+main#noticias {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: rgba(203,167,241,1);
+    background: -moz-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203,167,241,1)), color-stop(39%, rgba(203,167,241,0.9)), color-stop(66%, rgba(121,236,234,0.84)), color-stop(100%, rgba(121,236,234,0.75)));
+    background: -webkit-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: -o-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: -ms-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    background: linear-gradient(to bottom, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cba7f1', endColorstr='#79ecea', GradientType=0 );
+}
