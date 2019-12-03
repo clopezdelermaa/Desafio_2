@@ -15,11 +15,11 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- My CSS -->
         <!--    <link rel="stylesheet" href="css/styles.css" />-->
-        <link rel="stylesheet" href="../css/estilo.css" />
+        <link rel="stylesheet" href="css/estilo.css" />
     </head>
     <body>
         <?php
-        include '../cabecera.php';
+        include 'cabecera.php';
         
         ?>
         
@@ -35,10 +35,10 @@ and open the template in the editor.
             <img class="w-80" id="noticiaimg" src="https://ep01.epimg.net/elpais/imagenes/2019/10/25/icon_design/1572009116_120993_1572009250_noticia_normal_recorte2.jpg" alt="foto articulo"><p><a href="https://elpais.com/elpais/2019/10/25/icon_design/1572009116_120993.html">Guerrilla floral en Córdoba: estas no son decoraciones inocentes</a></p>
             <br>
             <br>
-            <img class="w-80" id="noticiaimg" src="../imagenes/jardinesbilbao.jpg"><p><a href="https://www.elcorreo.com/bizkaia/bilbao-avanza-jardineria-20191202154001-nt.html">Bilbao avanza en jardinería verde: ecocamiones, herramientas eléctricas y mas de 800 árboles urbanos nuevos cada año</a></p>
+            <img class="w-80" id="noticiaimg" src="imagenes/jardinesbilbao.jpg"><p><a href="https://www.elcorreo.com/bizkaia/bilbao-avanza-jardineria-20191202154001-nt.html">Bilbao avanza en jardinería verde: ecocamiones, herramientas eléctricas y mas de 800 árboles urbanos nuevos cada año</a></p>
             <br>
             <br>
-            <img class="w-80" id="noticiaimg"src="https://www.floresyplantas.net/wp-content/uploads/campos-de-lavanda-de-brihuega-2-696x466.jpg" alt="foto noticia"><a href="https://www.floresyplantas.net/campos-de-lavanda-de-brihuega/"><p>Campos de lavanz de Brihuega</p></a>
+            <img class="w-80" id="noticiaimg"src="https://www.floresyplantas.net/wp-content/uploads/campos-de-lavanda-de-brihuega-2-696x466.jpg" alt="foto articulo"><p><a href="https://www.floresyplantas.net/campos-de-lavanda-de-brihuega/">Campos de lavanda de Brihuega</p></a>
         </main>
         
          <script>
@@ -54,6 +54,6 @@ and open the template in the editor.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <?php
-    include '../pie.php';
+    include 'pie.php';
     ?>
 </html>

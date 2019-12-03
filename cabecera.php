@@ -23,11 +23,11 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a href="../Desafio2/index.php" class="nav-link">Home</a>
+                            <a href="index.php" class="nav-link">Home</a>
                         </li>
                         
                         <li class="nav-item active">
-                            <a href="vistas/noticias.php" class="nav-link">Noticias</a>
+                            <a href="noticias.php" class="nav-link">Noticias</a>
                         </li>
                         
                         <li class="nav-item dropdown">

@@ -14,7 +14,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- My CSS -->
         <!--    <link rel="stylesheet" href="css/styles.css" />-->
-        <link rel="stylesheet" href="../css/estilo.css" />
+        <link rel="stylesheet" href="css/estilo.css" />
     </head>
     <body>
         <header class="row">
@@ -26,9 +26,9 @@ and open the template in the editor.
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a href="../index.php" class="nav-link">Volver</a>
+                            <a href="index.php" class="nav-link">Volver</a>
                         </li>
-                        <a class="navbar-brand" href="#"><img id="logoformulario" src="../imagenes/PolillaSubsahariana.svg"/></a>
+                        <a class="navbar-brand" href="#"><img id="logoformulario" src="imagenes/PolillaSubsahariana.svg"/></a>
                         <h4 id="cabeceraformu">Sendero verde</h4>
                 </div>
             </nav>
@@ -63,6 +63,6 @@ and open the template in the editor.
 
     </body>
     <?php
-    require '../pie.php';
+    require 'pie.php';
     ?>
 </html>
