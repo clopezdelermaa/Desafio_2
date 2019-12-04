@@ -33,7 +33,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Listar Flores</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Por nombre</a>
+                                <a class="dropdown-item" href="florespornombre.php">Por nombre</a>
                                 <a class="dropdown-item" href="#">Por Familia</a>
                                 <a class="dropdown-item" href="#">Por color</a>
                             </div>

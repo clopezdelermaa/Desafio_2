@@ -67,8 +67,21 @@ and open the template in the editor.
         if (isset($_REQUEST['recuperarpasswd'])) {
             $email = $_REQUEST['email'];
             conexion::iniciarBBDD();
-            $u = conexion::existeUsuario($email);
+            $user = conexion::existeUsuario($email);
             conexion::cerrarBBDD();
+            if (!empty($user)) {
+                $from = "From: auxiliardaw2@gmail.com";
+                $clave = "Chubaca20";
+                $message = "Su contraseña de inicio de sesión es ".$clave."r\nLe recomendamos que la cambie al volver a iniciar sesión";
+                $subject = "Contraseña olvidada";
+                
+                $mandar = mail($email,$subject,$message,$from);
+                if ($mandar) {
+                    echo "Correo de recuperación de contraseña enviado correctamente";
+                } else {
+                    echo "Ha habido un error y no se ha podido enviar el correo";
+                }
+            }
         }
         ?>
     </body>

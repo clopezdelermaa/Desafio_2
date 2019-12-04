@@ -123,7 +123,7 @@ img#noticiaimg {
 section.mt-5 {
     background: transparent !important;
 }
-main#noticias {
+div#noticias {
     padding: 10% 20%;
     background: rgba(203,167,241,1);
     background: -moz-linear-gradient(top, rgba(203,167,241,1) 0%, rgba(203,167,241,0.9) 39%, rgba(121,236,234,0.84) 66%, rgba(121,236,234,0.75) 100%);
@@ -135,6 +135,19 @@ main#noticias {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cba7f1', endColorstr='#79ecea', GradientType=0 );
     
 }
-main#noticias p {
+div#noticias p {
     margin: 2% 12%;
 }
+ol.breadcrumb {
+    margin: 10% 20%;
+    background: transparent;
+}
+table.table-turquoise {
+    background-color: #76BDBA;
+    font-size: 11pt;
+    font-style: normal;
+    font-family: 'Gill Sans',serif;
+    color: #355551;
+    margin-bottom: 10%;
+}
+
