@@ -96,9 +96,7 @@ label.btn-warning.active {
     color: black;
     border: none;
 }
-nav .disabled {
-    visibility: hidden;
-}
+
 img#logoformulario {
     width: 80px;
     margin-left: 400px;
@@ -135,11 +133,12 @@ div#noticias {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cba7f1', endColorstr='#79ecea', GradientType=0 );
     
 }
-div#noticias p {
-    margin: 2% 12%;
+div#noticias iframe {
+    height: 600px;
+    width: 800px;
 }
-ol.breadcrumb {
-    margin: 10% 20%;
+ nav ol.breadcrumb {
+    margin:7% 8%;
     background: transparent;
 }
 table.table-turquoise {
@@ -151,3 +150,12 @@ table.table-turquoise {
     margin-bottom: 10%;
 }
 
+.aling-items-center {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+div.aling-items-center a {
+    margin: 0% 2%;
+    text-decoration: underline;
+}

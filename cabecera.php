@@ -34,11 +34,11 @@
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Listar Flores</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="florespornombre.php">Por nombre</a>
-                                <a class="dropdown-item" href="#">Por Familia</a>
-                                <a class="dropdown-item" href="#">Por color</a>
+                                <a class="dropdown-item" href="floresporfamilia.php">Por Familia</a>
+                                <a class="dropdown-item" href="floresporcolor.php">Por color</a>
                             </div>
                         </li>
-                         <li class="nav-item dropdown disabled">
+                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown">Area floral</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Añadir flor</a>
@@ -47,7 +47,7 @@
                             </div>
                         </li>
                         
-                        <li class="nav-item disabled">
+                        <li class="nav-item">
                             <a href ="#" class="nav-link">Administración de usuarios</a>
                             
                         </li>
@@ -59,6 +59,7 @@
                 <form class="form-inline">
                     <input class="btn btn-primary btn-sm mr-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
                     <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
+                    <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#cerrar" type="button" value="Cerrar Sesión">
                 </form>
             </nav>
         </header>

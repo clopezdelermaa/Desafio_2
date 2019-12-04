@@ -154,4 +154,7 @@ class conexion {
         }
     }
     
+    static function obtenerrolusuario($email) {
+        
+    }
 }

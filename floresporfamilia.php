@@ -6,8 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-
-        <title>Clasificar flores por nombre</title>
+        <title>Clasificar flores por familia</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -18,7 +17,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/estilo.css" />
     </head>
     <body>
-        <?php
+         <?php
         include './cabecera.php';
         ?>
 
@@ -28,17 +27,15 @@ and open the template in the editor.
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Listar flores</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Por nombre</li>
+                <li class="breadcrumb-item active" aria-current="page">Por familia</li>
             </ol>
         </nav>
 
         <br>
-         <div class="aling-items-center">
-            <a href="#">TODOS</a><a href="#">A</a><a href="#">B</a><a href="#">C</a><a href="#">D</a><a href="#">E</a><a href="#">F</a><a href="#">G</a><a href="#">H</a><a href="#">I</a><a href="#">J</a><a href="#">K</a><a href="#">L</a><a href="#">M</a>
-            <a href="#">N</a><a href="#">O</a><a href="#">P</a><a href="#">Q</a><a href="#">R</a><a href="#">S</a><a href="#">T</a><a href="#">U</a><a href="#">V</a><a href="#">W</a><a href="#">X</a><a href="#">Y</a><a href="#">Z</a>
+        <div class="aling-items-center">
+            <a href="#">TODOS</a><a href="#">Aiaceae</a><a href="#">Amaryllidaceae</a><a href="#">Aspargaceae</a><a href="#">Ateraceae</a><a href="#">Begoniaceae</a><a href="#">Boraginaceae</a><a href="#">Brassicaceae</a><a href="#"> Caprifoliaceae</a><a href="#">Crassulaceae</a><a href="#">Ericaceae</a><a href="#">Euphorbiaceae</a><a href="#">Fabaceae</a><a href="#">Gesneriaceae</a><a href="#">Hydrangeaceae</a><a href="#">Iridaceae</a><a href="#">Lamiaceae</a><a href="#">Liliaceae</a>
+            <a href="#">Magnoliaceae</a><a href="#">Malvaceae</a><a href="#">Nelumbonaceae</a><a href="#">Oleaceae</a><a href="#">Orchidaceae</a><a href="#">Paeoniaceae</a><a href="#">Papaveraceae</a><a href="#">Ranunculaceae</a><a href="#">Rosaceae</a><a href="#">Rubiaceae</a><a href="#">Rutaceae</a><a href="#">Smilacaceae</a><a href="#">Solanaceae</a><a href="#">Theaceae</a><a href="#">Violaceae</a>
         </div>
-
-
         <table class="table table-striped table-turquoise">
             <thead>
                 <tr>
