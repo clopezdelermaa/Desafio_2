@@ -154,7 +154,24 @@ class conexion {
         }
     }
     
+    /**
+     * Función que devuelve el rol del usuario. Dependiendo del rol que sea se mostrarán unas cosas u otras en el menú 
+     * @param type $email
+     * @return int
+     */
     static function obtenerrolusuario($email) {
+        $codusuario = 0;
+        
+            self::$sentencia = "SELECT privilegio.codprivilegio FROM usuario, privilegio WHERE usuario.codusuario=privilegio.cod_usuario ";
+            $stmt = mysqli_prepare(self::$conexion, self::$sentencia);
+            
+            if (self::$resultado = mysqli_stmt_execute($stmt)) {
+                self::$resultado = mysqli_stmt_get_result($stmt);
+                if ($fila = mysqli_fetch_array(self::$resultado)) {
+                    $fila[0] = $codusuario;
+                }
+        }
+        return $codusuario;
         
     }
 }
