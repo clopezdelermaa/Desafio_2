@@ -21,7 +21,7 @@ and open the template in the editor.
         <?php
         include 'cabecera.php';
         ?>
-<!--        https://floresyalgomas.webnode.es/rss/novedades.xml-->
+<!--        https://floresyalgomas.webnode.es/rss/novedades.xml -->
 
 
         <nav aria-label="breadcrumb">

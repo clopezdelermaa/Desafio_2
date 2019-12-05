@@ -11,6 +11,9 @@
  *
  * @author clope
  */
+include './constantes.php';
+include '../datos/usuario.php';
+
 class conexion {
     private static $conexion;
     private static $sentencia;
@@ -162,7 +165,7 @@ class conexion {
     static function obtenerrolusuario($email) {
         $codusuario = 0;
         
-            self::$sentencia = "SELECT privilegio.codprivilegio FROM usuario, privilegio WHERE usuario.codusuario=privilegio.cod_usuario ";
+            self::$sentencia = "SELECT privilegio.codprivilegio FROM usuario, privilegio WHERE usuario.email='".$email."' AND usuario.codusuario=privilegio.cod_usuario";
             $stmt = mysqli_prepare(self::$conexion, self::$sentencia);
             
             if (self::$resultado = mysqli_stmt_execute($stmt)) {

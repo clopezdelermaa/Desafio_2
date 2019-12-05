@@ -11,8 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        include_once '../conexion/conexion.php';
-        include_once '../datos/usuario.php';
+        require '../conexion/conexion.php';
         session_start();
 
         
@@ -29,7 +28,8 @@ and open the template in the editor.
             if (!empty($usuario)) {
                 $_SESSION['user'] = $usuario;
                 if ($usuario->getEmail() == $email && $usuario->getPasswd() == $passwd) {
-                    header("Location:../vistas/admin.php");
+                    conexion::obtenerrolusuario($email);
+                            
                 } else {
                     header("Location:../vistas/usuarioregistrado.php");
                 }

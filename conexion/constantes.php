@@ -12,8 +12,8 @@
  * @author clope
  */
 class constantes {
-    public static $usuario = 'celia';
-    public static $BBDD = 'desafio2';
-    public static $password = 'Chubaca2019';
-    public static $host = 'localhost';
+    public static $usuario = "celia";
+    public static $BBDD = "desafio2";
+    public static $password = "Chubaca2019";
+    public static $host = "localhost";
 }

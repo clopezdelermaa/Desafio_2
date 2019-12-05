@@ -15,7 +15,10 @@ and open the template in the editor.
 
 img#logo {
     width: 80px;
-    
+
+}
+a.navbar-brand {
+    margin-left: 15%;
 }
 
 .navbar{
@@ -158,4 +161,7 @@ table.table-turquoise {
 div.aling-items-center a {
     margin: 0% 2%;
     text-decoration: underline;
+}
+audio {
+    margin: 0% 40%;
 }

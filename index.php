@@ -17,65 +17,10 @@
 
     <body>
 
-        <main class="container-fluid">
-            <div class="alert alert-dismissible fade show alert-warning fixed-bottom">
-                Aviso de uso de cookies
-                <button type="button" class="close" data-dismiss="alert">
-                    <span>X</span>
-                </button>
-            </div>
-            <?php
-                session_start();
-            ?>
-            <!--MENU PRINCIPAL-->
-            <header class="row">
-                <nav class="navbar navbar-expand-sm navbar bg fixed-top">
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a href="index.php" class="nav-link">Home</a>
-                            </li>
-
-                            <li class="nav-item active">
-                                <a href="noticias.php" class="nav-link">Noticias</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown">Listar Flores</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="florespornombre.php">Por nombre</a>
-                                    <a class="dropdown-item" href="floresporfamilia.php">Por Familia</a>
-                                    <a class="dropdown-item" href="floresporcolor.php">Por color</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown disabled">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown">Area floral</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Añadir flor</a>
-                                    <a class="dropdown-item" href="#">Validar flor</a>
-
-                                </div>
-                            </li>
-
-                            <li class="nav-item disabled">
-                                <a href ="#" class="nav-link">Administración de usuarios</a>
-
-                            </li>
-                        </ul>
-
-                        <a class="navbar-brand" href="#"><img id="logo" src="imagenes/PolillaSubsahariana.svg"/></a>
-                        <h4>Sendero verde</h4>
-                    </div>
-                    <form class="form-inline">
-                        <input class="btn btn-primary btn-sm mr-2" data-toggle="modal" data-target="#entrar" type="button" value="Login">
-                        <input class="btn btn-primary btn-sm" data-toggle="modal" data-target="#registro" type="button" value="Registro">
-                    </form>
-                </nav>
-            </header>
+       <?php
+        include './cabecera.php';
+       ?>
+           
 
             <section class="row justify-content-center mt-5">
                 <div class="col-md-9 mt-3">
@@ -122,7 +67,7 @@
 
 
 
-            <!--         VENTANA MODAL DE LOGIN -->
+            <!--Ventana modal de login-->
             <section class="modal" id="entrar">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -132,7 +77,7 @@
                             </div>
                             <span data-dismiss="modal">X</span>
                         </div>
-                        <form>
+                        <form action="controladores/controladorgeneral.php" method="POST">
                             <div class="modal-body">
 
                                 <div class="form-group">
@@ -147,18 +92,19 @@
                             <div class="modal-footer text-right">
                                 <input type="submit" class="btn btn-primary" name="entrar" value="Entrar">
                             </div>
+                        </form>
                             <div>
                                 <a href="recuperarpasswd.php"><input type="button" class="btn btn-primary" value="Recuperar contraseña"</a> 
                             </div>    
-                        </form>
+                        
                     </div>
                 </div>
             </section>
 
-            <!--         VENTANA MODAL DE REGISTRO -->
+            <!--Ventana modal de registro-->
             <section class="modal" id="registro">
                 <div class="modal-dialog">
-                    <form>
+                    <form action="controladores/controladorgeneral.php" method="POST">
                         <div class="modal-content">
                             <div class="modal-header bg-primary text-white">
                                 <div class="modal-title">
@@ -177,7 +123,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Email:</label>
-                                    <input type="email" class="form-control" name="email" placeholder="Introduce tu correo electrónico" required>
+                                    <input type="email" class="form-control" name="correo" placeholder="Introduce tu correo electrónico" required>
                                 </div>
                                 <div class="form-group">
                                     <label>Contraseña:</label>
@@ -209,6 +155,10 @@
             </section>
 
         </main>
+        
+        <audio src="audio/Hollow Knight Music - Fungal Wastes OST Extended.mp3" controls="controls" type="audio/mpeg" preload="preload">
+            </audio>
+
 
         <!-- SCRIPT PARA QUE FUNCIONEN DETERMINADOS COMPONENTES -->
         <script>
@@ -224,14 +174,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        <footer>
-            <a href="#">¿Quiénes somos?</a>
-            <a href="#">Contacto</a>
-            <img id="icono" src="http://simpleicon.com/wp-content/uploads/facebook.png" alt="logo facebook">
-            <img id="icono" src="http://www.vectorico.com/download/social_media/Instagram-Logo.png" alt="logo instagram">
-            <img id="icono" src="http://pixsector.com/cache/f8dbbdb2/avb37443a9d16e06eef66.png" alt="logo twitter">
-            <br>
-            <p>Realizado por Celia López de Lerma Alarcón, Desarrollo de Aplicaciones Web 2º curso</p>
+        <?php
+        include './pie.php';
+        ?>
 
         </footer>
     </body>
